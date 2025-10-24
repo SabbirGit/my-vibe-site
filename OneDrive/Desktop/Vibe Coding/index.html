@@ -3,44 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello from the vibeside</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: lightgray;
-            text-align: center;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>Meet Luke - The Golden Puppy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello from the vibeside</h1>
-        <p>This is my first site built using AI and vibe coding.</p>
-        <button>Contact Me</button>
-    </div>
+    <header>
+        <h1>🐾 Meet Luke 🐾</h1>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="puppy-image">
+                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Luke's body -->
+                    <ellipse cx="200" cy="280" rx="120" ry="80" fill="#F4A460" stroke="#D2691E" stroke-width="2"/>
+                    
+                    <!-- Luke's head -->
+                    <circle cx="200" cy="160" r="100" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+                    
+                    <!-- Luke's ears -->
+                    <ellipse cx="130" cy="120" rx="35" ry="60" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+                    <ellipse cx="270" cy="120" rx="35" ry="60" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+                    <ellipse cx="125" cy="110" rx="20" ry="35" fill="#FFE4B5"/>
+                    <ellipse cx="275" cy="110" rx="20" ry="35" fill="#FFE4B5"/>
+                    
+                    <!-- Luke's eyes -->
+                    <circle cx="175" cy="145" r="8" fill="#000"/>
+                    <circle cx="225" cy="145" r="8" fill="#000"/>
+                    <circle cx="177" cy="143" r="3" fill="#FFF"/>
+                    <circle cx="227" cy="143" r="3" fill="#FFF"/>
+                    
+                    <!-- Luke's nose -->
+                    <ellipse cx="200" cy="165" rx="8" ry="6" fill="#8B4513"/>
+                    
+                    <!-- Luke's mouth -->
+                    <path d="M 200 165 Q 185 175 170 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+                    <path d="M 200 165 Q 215 175 230 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+                    
+                    <!-- Luke's tongue -->
+                    <ellipse cx="200" cy="175" rx="8" ry="10" fill="#FF69B4"/>
+                    
+                    <!-- Luke's paws -->
+                    <circle cx="140" cy="340" r="25" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+                    <circle cx="260" cy="340" r="25" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+                    
+                    <!-- Luke's tail -->
+                    <ellipse cx="280" cy="280" rx="20" ry="40" fill="#FFD700" stroke="#DAA520" stroke-width="2" transform="rotate(30 280 280)"/>
+                    
+                    <!-- Luke's spots -->
+                    <circle cx="220" cy="220" r="15" fill="#FFE4B5" opacity="0.6"/>
+                    <circle cx="180" cy="240" r="12" fill="#FFE4B5" opacity="0.6"/>
+                </svg>
+            </div>
+            
+            <div class="content">
+                <h2>Luke</h2>
+                <p class="subtitle">The Happiest Golden Puppy</p>
+                
+                <div class="description">
+                    <p>Meet Luke, a joyful golden puppy with the most beautiful golden fur you've ever seen! 🐕</p>
+                    
+                    <p>Luke is full of energy and loves to play fetch, chase his tail, and make everyone around him smile with his playful antics.</p>
+                    
+                    <p>His golden coat shines in the sunlight, and his wagging tail never stops moving when he's excited. Luke is the friendliest puppy you'll ever meet!</p>
+                    
+                    <div class="traits">
+                        <h3>Luke's Favorite Things:</h3>
+                        <ul>
+                            <li>🌟 Playing fetch in the park</li>
+                            <li>🌟 Belly rubs and cuddles</li>
+                            <li>🌟 Making new friends</li>
+                            <li>🌟 Chewing on his favorite toys</li>
+                            <li>🌟 Sunny days in the backyard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Made with ❤️ for Luke</p>
+    </footer>
 </body>
 </html>
-
